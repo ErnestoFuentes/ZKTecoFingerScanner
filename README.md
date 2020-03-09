@@ -1,4 +1,5 @@
-# ZKTecoFingerPrintScanner-Implementation
+# Implementacion del ZKTecoFingerPrintScanner
+## Todo el Credito para @zaagan --> https://github.com/zaagan/ZKTecoFingerPrintScanner-Implementation
 A C# implementation of the **ZkFingerprint Scanner**
 
 
