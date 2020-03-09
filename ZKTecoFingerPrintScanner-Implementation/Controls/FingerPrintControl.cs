@@ -245,6 +245,8 @@ namespace Dofe_Re_Entry.UserControls.DeviceController
                             textBox3.Text = Person[0].FECHA_INSC;
                             DisplayFingerPrintImage();
                             MessageBox.Show("SI HACE MACHT FUNCIONA");
+                            DisplayMessage(MessageManager.msg_FP_machtcase, true);
+
                             return;
                         }
                         else

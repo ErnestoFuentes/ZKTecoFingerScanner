@@ -34,6 +34,8 @@
 
         public const string msg_FP_UnableToDeleteFingerPrint = "Unable to delete the fingerprint with id ";
 
+        public const string msg_FP_machtcase = "Huellas coinciden";
+
     }
 
 }
