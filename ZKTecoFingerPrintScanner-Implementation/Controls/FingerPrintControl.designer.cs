@@ -46,6 +46,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.picFPImg)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -83,7 +86,7 @@
             // 
             this.lblFingerPrintCount.AutoSize = true;
             this.lblFingerPrintCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.lblFingerPrintCount.Location = new System.Drawing.Point(339, 238);
+            this.lblFingerPrintCount.Location = new System.Drawing.Point(345, 277);
             this.lblFingerPrintCount.Name = "lblFingerPrintCount";
             this.lblFingerPrintCount.Size = new System.Drawing.Size(42, 46);
             this.lblFingerPrintCount.TabIndex = 783;
@@ -129,7 +132,7 @@
             // 
             this.picFPImg.BackColor = System.Drawing.Color.Transparent;
             this.picFPImg.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picFPImg.Location = new System.Drawing.Point(14, 207);
+            this.picFPImg.Location = new System.Drawing.Point(20, 246);
             this.picFPImg.Name = "picFPImg";
             this.picFPImg.Size = new System.Drawing.Size(125, 129);
             this.picFPImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -144,7 +147,7 @@
             this.btnVerify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVerify.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnVerify.ForeColor = System.Drawing.Color.Black;
-            this.btnVerify.Location = new System.Drawing.Point(145, 238);
+            this.btnVerify.Location = new System.Drawing.Point(151, 277);
             this.btnVerify.Name = "btnVerify";
             this.btnVerify.Size = new System.Drawing.Size(138, 34);
             this.btnVerify.TabIndex = 775;
@@ -208,7 +211,7 @@
             this.btnFree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFree.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnFree.ForeColor = System.Drawing.Color.Black;
-            this.btnFree.Location = new System.Drawing.Point(145, 278);
+            this.btnFree.Location = new System.Drawing.Point(151, 317);
             this.btnFree.Name = "btnFree";
             this.btnFree.Size = new System.Drawing.Size(138, 34);
             this.btnFree.TabIndex = 786;
@@ -267,10 +270,40 @@
             this.textBox3.Size = new System.Drawing.Size(80, 20);
             this.textBox3.TabIndex = 791;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(123, 217);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(120, 13);
+            this.label4.TabIndex = 794;
+            this.label4.Text = "Tipo de Inscripcion:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(257, 210);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(80, 20);
+            this.textBox4.TabIndex = 793;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(257, 237);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(63, 17);
+            this.checkBox1.TabIndex = 795;
+            this.checkBox1.Text = "al dia??";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // FingerPrintControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label2);
@@ -288,7 +321,7 @@
             this.Controls.Add(this.picFPImg);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.Name = "FingerPrintControl";
-            this.Size = new System.Drawing.Size(474, 350);
+            this.Size = new System.Drawing.Size(474, 394);
             this.Load += new System.EventHandler(this.FingerPrintControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picFPImg)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -317,5 +350,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

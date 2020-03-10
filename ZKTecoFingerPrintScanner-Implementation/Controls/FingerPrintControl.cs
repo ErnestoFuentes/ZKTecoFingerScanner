@@ -324,6 +324,9 @@ namespace Dofe_Re_Entry.UserControls.DeviceController
                                         textBox1.Text = "";
                                         textBox2.Text = "";
                                         textBox3.Text = "";
+                                        textBox4.Text = "";
+
+                                        checkBox1.Checked = false;
 
 
                                         DisplayMessage(MessageManager.msg_FP_EnrollSuccessfull, true);
@@ -426,6 +429,13 @@ namespace Dofe_Re_Entry.UserControls.DeviceController
                 cmbIdx.Items.Clear();
                 Utilities.EnableControls(true, btnInit);
                 Utilities.EnableControls(false, btnFree, btnClose, btnEnroll, btnVerify, btnIdentify);
+
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+
+                checkBox1.Checked = false;
 
                 bnInit_Click(sender, e);
 

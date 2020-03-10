@@ -42,7 +42,7 @@ namespace ZKTecoFingerPrintScanner_Implementation
             // 
             this.pnlStage.Location = new System.Drawing.Point(12, 47);
             this.pnlStage.Name = "pnlStage";
-            this.pnlStage.Size = new System.Drawing.Size(447, 343);
+            this.pnlStage.Size = new System.Drawing.Size(447, 376);
             this.pnlStage.TabIndex = 2;
             this.pnlStage.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlStage_Paint);
             // 
@@ -81,7 +81,7 @@ namespace ZKTecoFingerPrintScanner_Implementation
             // 
             this.statusBar.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.statusBar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusBar.Location = new System.Drawing.Point(0, 396);
+            this.statusBar.Location = new System.Drawing.Point(0, 429);
             this.statusBar.Message = "label1";
             this.statusBar.MessageType = false;
             this.statusBar.Name = "statusBar";
@@ -95,7 +95,7 @@ namespace ZKTecoFingerPrintScanner_Implementation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(720, 419);
+            this.ClientSize = new System.Drawing.Size(720, 452);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnlStage);
